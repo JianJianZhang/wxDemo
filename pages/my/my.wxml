@@ -1,0 +1,19 @@
+<!--pages/my/my.wxml-->
+<import src="../../pages/template/itemtemplate.wxml"/>
+
+<view class='parent'>
+  <view class='userinfo' style="display:flex;flex-direction: column;">
+    <image class='userinfo-avatar' src='{{userInfo.avatarUrl}}'></image>
+    <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+  </view>
+</view>
+
+<view wx:for="{{subject}}" >
+
+    <view class='item' bindtap='itemclick' data-item='{{item}}' data-index='{{index}}'>
+        <template is="itemService" data="{{item}}"></template>
+    </view>
+  
+</view>
+
+

@@ -1,0 +1,63 @@
+<scroll-view scroll-y="true" class='scroll_'>
+
+  <swiper class="swiper_css" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+
+    <block wx:for="{{imgUrls}}">
+
+      <swiper-item class="swiper_item">
+        <image src="{{item.image}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+
+    </block>
+  </swiper>
+
+  <view class='home_item_two'>
+
+    <view class="item_style" bindtap='quickInquiry'>
+      <image class="consultion_icon" src='{{picConsultionIconUrl}}'></image>
+      <view class='consultion_content'>
+        <text class="consultion_name">{{consultionName}}</text>
+        <text class="consultion_desc">{{consultionDesc}}</text>
+      </view>
+    </view>
+
+    <view class='item_line'></view>
+
+    <view class="item_style" bindtap='findDoctor'>
+      <image class="consultion_icon" src='{{findDoctorIconUrl}}'></image>
+      <view class='consultion_content'>
+        <text class="consultion_name">{{findDoctorName}}</text>
+        <text class="consultion_desc">{{findDoctorDesc}}</text>
+      </view>
+    </view>
+
+  </view>
+
+  <button class='cs_button' open-type="contact" session-from="weapp">
+    <image class="consultion_icon" src='{{phoneConsultionIconUrl}}'></image>
+    <text class="cs_button_name">{{customName}}</text>
+    <image class="consultion_arrow" src='{{consultionArrowUrl}}'></image>
+  </button>
+
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">健康</view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">情感</view>
+    <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">职场</view>
+    <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">育儿</view>
+    <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">纠纷</view>
+    <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">青葱</view>
+    <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">全部</view>
+    <view class="tab-item {{currentTab==7?'active':''}}" data-current="7" bindtap="swichNav">其他</view>
+  </scroll-view>
+
+  <view wx:for="{{objectArray}}">
+
+    <block>
+      <view class="item_style">
+        <text class="consultion_name">{{itemName.id}}</text>
+      </view>
+    </block>
+
+  </view>
+
+</scroll-view>

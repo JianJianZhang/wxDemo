@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/inquiry/quiry",
+    "pages/phone/phone",
+    "pages/consulation/consulation",
+    "pages/healthrecords/healthRecords",
+    "pages/account/account"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#32B6FF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "金圣达",
+        "iconPath": "pages/images/home_unchecked.png",
+        "selectedIconPath": "pages/images/home_checked.png"
+      },
+      {
+        "pagePath": "pages/consulation/consulation",
+        "text": "我的咨询",
+        "iconPath": "pages/images/home_unchecked.png",
+        "selectedIconPath": "pages/images/home_checked.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "pages/images/my_uncheck.png",
+        "selectedIconPath": "pages/images/my_check.png"
+      }
+    ]
+  }
+}

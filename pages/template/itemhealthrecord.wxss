@@ -1,0 +1,32 @@
+.item_member{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 30rpx;
+  border-width: 3rpx;
+  border-color:beige;
+  border-style:solid;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  background-color: white
+}
+
+.item_member_image{
+ width: 50rpx;
+ height: 50rpx
+}
+
+.item_member_info{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-left: 20rpx
+}
+
+.item_member_name{
+  margin-left: 20rpx
+}
+
+.item_member_age{
+  margin-left: 20rpx
+}

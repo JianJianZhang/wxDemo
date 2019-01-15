@@ -1,0 +1,27 @@
+.item_service{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 30rpx;
+  border-width: 3rpx;
+  border-color:beige;
+  border-style:solid;
+  border-radius: 10rpx;
+  margin-top: 10rpx
+}
+
+.item_image{
+ width: 50rpx;
+ height: 50rpx
+}
+
+.item_text{
+  margin-left: 20rpx
+}
+
+.item_arrow{
+ width: 20rpx;
+ height: 20rpx;
+ position:absolute; 
+ right: 80rpx
+}

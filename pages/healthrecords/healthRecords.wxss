@@ -1,0 +1,7 @@
+/* pages/healthrecords/healthRecords.wxss */
+.add_btn{
+  position: fixed;
+  bottom: 30rpx;
+  left: 20rpx;
+  right: 20rpx;
+}

@@ -1,0 +1,17 @@
+<!--pages/phone/phone.wxml-->
+<image class='image_service' src="{{imageUrl}}" ></image>
+
+
+ <view class="weui-service_time">
+      <view class="weui-service_desc">服务时间：9：00--21:00</view>
+  </view>
+
+  <view class="itemSection"> 
+    <text class='textStyle'>选择科室</text>
+    <text class="documentInput" ></text>
+  </view>
+
+  <view class="itemSection"> 
+    <text class='textStyle'>接听手机</text>
+    <input class="phoneInput" type='number' bindinput="inputSection" />
+  </view>

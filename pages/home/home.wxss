@@ -1,0 +1,208 @@
+.slide-image{
+    width: 100%;
+    height: 150px;
+}
+
+.home_item_one{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  padding: 30rpx;
+  border-width: 3rpx;
+  border-color:beige;
+  border-style:solid;
+  border-radius: 10rpx;
+  margin-top: 10rpx
+}
+
+.scroll_{
+  height: 100%;
+}
+
+.home_item_two{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  border-width: 3rpx;
+  border-color:beige;
+  border-style:solid;
+  border-radius: 10rpx;
+  margin-top: 10rpx
+}
+
+.item_style{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  padding: 30rpx;
+  background-color: #fff;
+}
+
+.cs_button {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  border: 0px;
+  background-color: #fff;
+  margin-top: 10rpx
+}
+
+.cs_button_content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-left: 20rpx
+}
+
+.cs_button_name{
+ font-size: 16px;
+  color: black;
+  margin-left: 20rpx;
+}
+
+.cs_button_desc{
+  font-size: 12px;
+  color: #dfdfdf
+}
+
+
+.item_line{
+ width:3rpx;
+ height:100rpx;
+ background:#aaa;
+}
+
+.consultion_icon{
+ width: 100rpx;
+ height: 100rpx
+}
+
+.consultion_content{
+  display: flex;
+  flex-direction: column; 
+  margin-left: 20rpx
+}
+
+.consultion_name{
+  font-size: 16px;
+  color: black
+}
+
+.consultion_desc{
+  margin-top: 10rpx;
+  font-size: 12px;
+  color: #dfdfdf
+}
+
+.consultion_arrow{
+  width: 30rpx;
+ height: 30rpx;
+ position:absolute; 
+ right: 50rpx
+}
+
+.tab-h{
+    height: 80rpx;
+    width: 100%; 
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 80rpx;
+    background: #F7F7F7; 
+    font-size: 16px; 
+    white-space: nowrap;
+    position: fixed;
+    background-color: #fff;
+    } 
+
+.tab-item{
+  margin:0 36rpx;
+  display: inline-block;
+  }
+
+  /*
+
+.tab-item{
+  margin:0 36rpx;
+  display: inline-block;
+  }
+
+.tab-item.active{
+  color: #4675F9;
+  position: relative;
+  }
+
+.tab-item.active:after{
+   content: "";
+   display: block;
+   height: 8rpx;
+   width: 52rpx;
+   background: #4675F9;
+   position: absolute;
+   bottom: 0;
+   left: 5rpx;
+   border-radius: 16rpx;
+   }
+
+.item-ans{ 
+  width: 100%;
+  display: flex; 
+  flex-grow: row no-wrap;
+  justify-content: space-between; 
+  padding: 30rpx;
+  box-sizing: border-box; 
+  height: 180rpx;
+  align-items: center;
+  border-bottom: 1px solid #F2F2F2;
+  }
+
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  padding-right: 30rpx;
+  }
+
+.avatar .img{
+  width: 100%;
+  height: 100%;
+  }
+
+.avatar .doyen{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  bottom: -2px;
+  right: 20rpx;
+  }
+
+.expertInfo{
+  font-size: 12px;
+  flex-grow: 2;
+  color: #B0B0B0;
+  line-height: 1.5em;
+  }
+
+.expertInfo .name{
+  font-size: 16px;
+  color:#000;
+  margin-bottom: 6px;
+  }
+
+.askBtn{ 
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 14px; 
+  border-radius: 60rpx;
+  border: 1px solid #4675F9;
+  color:#4675F9;
+  }
+
+.tab-content{
+  margin-top: 80rpx;
+  }
+
+.scoll-h{
+  height: 100%;
+  } */

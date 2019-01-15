@@ -1,0 +1,14 @@
+<template name="itemService">
+
+   <view class="item_service">
+
+        <image class="item_image" src='{{item.url}}'></image>
+        <text class="item_text" >{{item.name}}</text> 
+
+        <block wx:if="{{item.arrow==null?'false':'true'}}">
+        <image class="item_arrow" src='{{item.arrow}}'></image>
+        </block>
+
+  </view> 
+
+</template>

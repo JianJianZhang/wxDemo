@@ -1,0 +1,34 @@
+<!--pages/inquiry/quiry.wxml-->
+  <textarea class="textArea" 
+  placeholder="请详细描述您的症状、疾病和身体状况，便于医生更准确的分析，金圣达将确保您的隐私安全(字数限制为10~500字)" name="textarea"/>
+
+<view class="weui-cell">
+
+  <view class="weui-cell__bd">
+
+
+    <view class="weui-uploader">
+
+      
+      <view class="weui-uploader__bd">
+        <!-- 选择上传的图片 -->
+        <view class="weui-uploader__files">
+          <block wx:for="{{pics}}" wx:for-item="image">
+            <view class="weui-uploader__file">
+              <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+            </view>
+          </block>
+        </view>
+
+        <!-- 选择图片的按钮 -->
+        <view class="weui-uploader__input-box {{isShow?'true':'hideTrue'}}">
+          <view class="weui-uploader__input" bindtap="chooseImage"></view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="submit_btn" type="primary" >提交问题</button>
+

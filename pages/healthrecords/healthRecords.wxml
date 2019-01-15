@@ -1,0 +1,16 @@
+<!--pages/healthrecords/healthRecords.wxml-->
+<import src="../../pages/template/itemhealthrecord.wxml"/>
+
+<view>
+
+<view wx:for="{{memberLists}}" >
+
+    <view class='item' bindtap='itemclick' data-item='{{item}}' data-index='{{index}}'>
+        <template is="itemMember" data="{{item}}"></template>
+    </view>
+  
+</view>
+
+<button type="primary" class='add_btn'>+添加档案</button>
+
+</view>

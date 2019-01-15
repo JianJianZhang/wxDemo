@@ -1,0 +1,17 @@
+<template name="itemMember">
+
+   <view class="item_member">
+
+        <image class="item_member_image" src='{{item.url}}'></image>
+
+        <view class='item_member_info'>
+        
+          <text class="item_member_name" >{{item.name}}</text> 
+          <text class="item_member_age" >{{item.age}}</text> 
+
+        </view>
+
+
+  </view> 
+
+</template>
